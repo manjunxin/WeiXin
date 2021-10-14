@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAE7E7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#FCFBFB"
+        android:id="@+id/pen_you_quan1"
+        android:onClick="onClick">
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/w18"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:text="朋友圈"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#FCFBFB"
+        android:layout_marginTop="10dp"
+        android:id="@+id/sao_yi_sao"
+        android:onClick="onClick">
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/w19"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:text="扫一扫"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#FCFBFB"
+        android:layout_marginTop="10dp"
+        android:id="@+id/zhibo_fujin"
+        android:onClick="onClick">
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/w20"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:text="直播和附近"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
